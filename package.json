@@ -12,6 +12,7 @@
     "web:build": "./node_modules/.bin/webpack --config ./webpack.config.js --color --mode production"
   },
   "dependencies": {
+    "@modules/app-menu": "file:./modules/app-menu/",
     "@modules/onboarding": "file:./modules/onboarding/",
     "@modules/privacy-policy-webview": "file:./modules/privacy-policy-webview/",
     "@modules/social-login": "file:./modules/social-login/",
